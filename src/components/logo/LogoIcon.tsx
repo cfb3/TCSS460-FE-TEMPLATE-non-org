@@ -6,7 +6,5 @@ import Image from 'next/image';
 const logoIcon = 'assets/images/logo-icon.svg';
 
 export default function LogoIcon() {
-  return (
-    <Image src={logoIcon} alt="UW" width={55} height={55} />
-  );
+  return <Image src={logoIcon} alt="UW" width={55} height={55} />;
 }
